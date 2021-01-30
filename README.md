@@ -1,0 +1,2 @@
+# Disconsole
+DiscordSRVの一部機能をWebhookのみで再現したもの
