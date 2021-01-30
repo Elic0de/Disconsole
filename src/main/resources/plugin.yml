@@ -1,0 +1,3 @@
+name: Disconsole
+version: ${project.version}
+main: plugin.midorin.info.dc.DisconsolePlugin
