@@ -1,3 +1,11 @@
 name: Disconsole
 version: ${project.version}
 main: plugin.midorin.info.dc.DisconsolePlugin
+
+commands:
+  disconsole:
+    description: Command
+    aliases:
+      - dis
+      - dc
+      - console

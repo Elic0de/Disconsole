@@ -1,0 +1,25 @@
+########################################
+#                                      #
+#      ------- DisConsole -------      #
+#                                      #
+########################################
+
+username: "Server"
+avatar: "url"
+# Discordチャットでの表示形式を選択できます。< 1 or 2 >
+display-format: 1
+
+# DiscordからMinecraftへ送信する際は、ボットのTokenを貼り付けてください。
+# MinecraftからDiscordだけの場合は、Webhookの設定だけでOKです。
+token: ""
+
+webhooks:
+  chat: "url"
+  console: "url"
+
+messages:
+  chat: "§3[Discord] §f%user: %message"
+  join: "%player がサーバーに参加しました。"
+  quit: "%player がサーバーから退出しました。"
+  server-start: ":green_square:  サーバーが起動しました。"
+  server-stop: ":red_square:  サーバーが停止しました。"
